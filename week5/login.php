@@ -36,6 +36,7 @@
 	
 		
 	<div id="info">
+<<<<<<< HEAD
 		<form action="login.php" method="post">
 
 	<label for="foo">Username:</label>
@@ -53,6 +54,22 @@
 	</div><!-- /content -->
 
    <!--#include virtual="footer.html" -->
+=======
+		<p>Thank you for logging. You should be able to see all sorts of user information here.</p>
+	</div>	
+	</div><!-- /content -->
+
+    <div data-role="footer" data-id="samebar" class="nav-glyphish-example" data-position="fixed" data-tap-toggle="false">
+		<div data-role="navbar" class="nav-glyphish-example" data-grid="c">
+		<ul>
+			<li><a href="index.php" id="home" data-icon="custom">Home</a></li>
+			<li><a href="login.php" id="key" data-icon="custom" class="ui-btn-active">Login</a></li>
+			<li><a href="filter.php" id="beer" data-icon="custom">Filter</a></li>
+			<li><a href="#" id="skull" data-icon="custom">Settings</a></li>
+		</ul>
+		</div>
+	</div>
+>>>>>>> 47b6227ee9a5a9dd9b33861454df34fda53b71bb
 	<script type="text/javascript">
 	$("#logout").hide();
 	$("#info").hide();
